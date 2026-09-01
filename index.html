@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACARA 2 | BOOTSTRAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        main {
+            margin-top: 80px
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body shadow fixed-top"
+            data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">KOTA SALATIGA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-house-heart-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deskripsi">
+                                <i class="bi bi-card-checklist"></i> Deskripsi
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#penduduk">
+                                <i class="bi bi-person-heart"></i> Penduduk
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#kecamatan">
+                                <i class="bi bi-globe-asia-australia"></i> Kecamatan
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sumber">
+                                <i class="bi bi-arrow-down-right-square"></i> Sumber
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gambar">
+                                <i class="bi bi-images"></i> Gambar
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#maps">
+                                <i class="bi bi-geo-alt"></i> Maps
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#infoModal">
+                                <i class="bi bi-info-circle-fill"></i> Info
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container">
+        <div class="alert alert-warning shadow text-center" role="alert">
+            <h2>KOTA SALATIGA</h2>
+        </div>
+
+        <!--DESKRIPSI-->
+        <div class="card shadow" id="deskripsi">
+            <div class="card-header">
+                <H5>
+                    <i class="bi bi-card-checklist"></i> DESKRIPSI
+                </H5>
+
+            </div>
+
+            <div class="card-body">
+                <p>
+                    Kota Salatiga adalah kota di Provinsi Jawa Tengah, Indonesia, yang menjadi enklave dari Kabupaten
+                    Semarang.
+                    Kota Salatiga terletak 49 kilometer di sebelah Selatan Kota Semarang dan 52 kilometer di sebelah
+                    Utara Kota
+                    Surakarta, serta berada di jalan nasional yang menghubungkan antara Kabupaten Semarang dengan Kota
+                    Surakarta. Jumlah penduduk kota Salatiga hingga semester pertama tahun 2025 berjumlah 199.350 jiwa.
+                </p>
+                <p>
+                    Wilayah Salatiga terletak pada ketinggian antara 450-825 meter di atas permukaan air laut. Secara
+                    morfologi,
+                    Salatiga berada di daerah cekungan kaki Gunung Merbabu dan gunung-gunung kecil, yaitu Gunung
+                    Telomoyo,
+                    Gunung Ungaran, Gunung Payung, dan Gunung Rong. Morfologi pegunungan menyebabkan Salatiga beriklim
+                    tropis
+                    dengan suhu udara rata-rata antara 23°-24° C. Adanya kombinasi lereng dan kaki gunung tersebut juga
+                    menyebabkan Salatiga terletak pada dataran yang miring ke barat dengan tingkat kemiringannya
+                    berkisar antara
+                    50-100, sehingga dapat dikatakan bahwa Salatiga merupakan dataran sekaligus lereng gunung dan
+                    pegunungan.
+                </p>
+            </div>
+
+        </div>
+        <!--PENDUDUK-->
+        <div class="card shadow mt-3" id="penduduk">
+            <div class="card-header">
+                <H5>
+                    <i class="bi bi-person-heart"></i> PENDUDUK
+                </H5>
+
+            </div>
+
+            <div class="card-body">
+                <!--TABEL-->
+
+                <table class="table table-striped table-success table-bordered">
+                    <tr>
+                        <th>No</th>
+                        <th>Kecamatan</th>
+                        <th>Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Argomulyo</td>
+                        <td>48000 jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Tingkir</td>
+                        <td>47000 jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sidomukti</td>
+                        <td>44000 jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Sidorejo</td>
+                        <td>60000 jiwa</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Total</td>
+                        <td>199000 jiwa</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <!--KECAMATAN-->
+            <div class="card shadow mt- 3" id="kecamatan">
+                <div class="card-header">
+                    <H5>
+                        <i class="bi bi-globe-asia-australia"></i> KECAMATAN
+                    </H5>
+
+                </div>
+
+                <div class="card-body">
+
+                    <ol style="display:inline-block;text-align:left;">
+                        <li>Argomulyo</li>
+                        <li>Tingkir</li>
+                        <li>Sidomukti</li>
+                        <li>Sidorejo</li>
+                    </ol>
+                </div>
+
+                <!--SUMBER-->
+                <div class="card shadow mt- 3" id="sumber">
+                    <div class="card-header">
+                        <H5>
+                            <i class="bi bi-arrow-down-right-square"></i> SUMBER
+                        </H5>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <a href="https://id.wikipedia.org/wiki/Kota_Salatiga" target="_blank" rel="noopener noreferrer">
+                            Click here!
+                        </a>
+                    </div>
+
+                    <!--GAMBAR-->
+                    <div class="card shadow mt-3" id="gambar">
+                        <div class="card-header">
+                            <H5>
+                                <i class="bi bi-images"></i> GAMBAR
+                            </H5>
+
+                        </div>
+
+                        <div class="card-body">
+
+                            <!--image-->
+                            <img
+                                src="https://image.idntimes.com/post/20250519/pexels-silviana0808-28961913-38ba6bd77a6c763fe42c9da87b07f9e2-3f8966afea914b2f3c29e926efcf6b86.jpg">
+
+                        </div>
+
+                        <!--MAPS-->
+                        <div class="card shadow mt-3" id="maps">
+                            <div class="card-header">
+                                <H5>
+                                    <i class="bi bi-images"></i> MAPS
+                                </H5>
+
+                            </div>
+
+                            <div class="card-body">
+
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52103.737984789615!2d110.45588560389808!3d-7.326251726500093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a787e692c9c69%3A0xf6a53e23a0c4462c!2sSalatiga%2C%20Kota%20Salatiga%2C%20Jawa%20Tengah!5e1!3m2!1sid!2sid!4v1787739125538!5m2!1sid!2sid"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+
+                            </div>
+                        </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Info</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class = table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Husna</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>25/561995/SV/26711</td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>:</td>
+                            <td>PG WEB A</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
